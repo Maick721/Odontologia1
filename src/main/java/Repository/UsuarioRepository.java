@@ -14,6 +14,8 @@ public class UsuarioRepository {
                 PasswordUtil.hashPassword("odontoloogia145"), "SECRETARIA"));
         USUARIOS.put("doctor@smilecenter.com", new Usuario("doctor@smilecenter.com",
                 PasswordUtil.hashPassword("doc123"), "DOCTOR"));
+        USUARIOS.put("adrian@gmail.com", new Usuario("adrian@gmail.com",
+                PasswordUtil.hashPassword("adri23"), "ADMIN"));
     }
 
     public Usuario buscarPorUsername(String username) {
